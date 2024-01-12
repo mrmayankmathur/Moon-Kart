@@ -1,0 +1,604 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    background-color: #111;
+    color: white;
+    padding: 20px 50px;
+}
+
+.navTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    opacity: 83%;
+    background-color: gray;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.searchInput{
+    border: none;
+    background-color: transparent;
+}
+
+.searchInput::placeholder{
+    padding: 0 0;
+    padding-left: 30%;
+    color: lightgray;
+}
+
+.limitedOffer{
+    font-size: 20px;
+    /* border-bottom: 2px solid green;
+    cursor: pointer; */
+}
+
+.limitedOffer:hover{
+    border-bottom: 2px solid green;
+    cursor: pointer;
+}
+
+.navBottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menuItem{
+    margin-right: 30px;
+    cursor: pointer;
+    color: lightgray;
+    font-weight: 400;
+}
+
+.sliderImage {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  padding: 90 0;
+  padding-left: 0;
+  display: block;
+  margin: 0 auto;
+  padding: 120px;
+  padding-left: 17%;
+  /* object-fit cover; Ensure full coverage */
+}
+  
+/* Optional: Center the image within its container */
+/* .sliderImage {
+  display: block;
+  margin: 0 auto;
+  padding: 120px;
+  padding-left: 17%;
+} */
+
+.slider{
+    background: url("./img/Background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.sliderWrapper{
+    display: flex;
+    width: 500vw;
+    transition: all 1s ease-in-out;
+}
+
+.sliderItem{
+    /* width: 100vw; */
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    position: relative;
+} 
+
+.sliderbg{
+    height: 100px;
+}
+
+.sliderTitle{
+    position: absolute;
+    bottom: 87%;
+    right: 28.4%;
+    font-size: 40px;
+    text-shadow: 2px 2px 13px rgba(255, 252, 252, 0.9);
+    text-align: center;
+    color: black;
+    cursor: pointer;
+}
+
+.sliderPrice{
+    position: absolute;
+    bottom: 13.3%;
+    right: 36.0%;
+    font-size: 30px;
+    font-weight: 450;
+    /* text-shadow: 2px 2px 13px rgba(255, 252, 252, 0.9); */
+    text-align: center;
+    color: #4E525E;
+    
+}
+
+.sliderPrice:hover{  
+    font-weight: 500;
+    size: 1.1;
+    border-bottom: 2px solid #847F78;
+}
+
+.buyButton {
+    position: absolute;
+    bottom: 10.2%;
+    right: 40.5%;
+    font-size: 13px;
+    background-color: #0277ED; /* Navy blue background */
+    color: white; /* White text for contrast */
+    border: none; /* Remove any default borders */
+    padding: 10px 50px; /* Adjust padding as needed */
+    border-radius: 50px; /* Curved edges */
+    font-weight: bold; /* Optional: Make text bold */
+    cursor: pointer; /* Indicate interactivity */
+    transition: all 0.3s ease-in-out;
+}
+
+.buyButton:hover{
+    background-color: #4E525E;
+    color:#0277ED;
+    transition: all 0.3s ease-in-out;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: space-between;
+    align-items: center; /* Optional: Vertically center items */
+    padding: 50px;
+    
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1px;
+    width: 46%; /* Ensure two items fit per row */
+    margin-bottom: 40px;
+}
+
+.feature:nth-child(1), .feature:nth-child(2) {
+  /* Applies to first two features only */
+  margin-bottom: 0;
+}
+
+.featureImage{
+    width: 50px;
+    height: 50px;
+}
+
+.featureTitle{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 3px;
+}
+
+.featureDescription{
+    color: gray;
+    width: 50%;
+    height: 100px;
+}
+
+.features:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;  /* Adjust thickness as desired */
+    background-color: lightgray;  /* Change color as needed */
+    margin-top: 0;  /* Optional: Spacing above the line */
+    /* transform: rotate(-4.7deg); */
+}
+
+.product{
+    height: 100vh;
+    background-color: whitesmoke;
+    position: relative;
+    clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+}
+
+.payment{
+    width: 550px;
+    height: 550px;
+    background-color: aliceblue;
+    position: absolute;
+    top: 268%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 10px 50px;
+    border-radius: 20px;
+    display: none;
+    flex-direction: column;
+    -webkit-box-shadow: 0px 0px 32px 10px rgba(0,0,0,0.66);
+    -moz-box-shadow: 0px 0px 32px 10px rgba(0,0,0,0.66);
+    box-shadow: 0px 0px 32px 10px rgba(0,0,0,0.66);
+}
+
+.payTitle{
+    font-size: 20px;
+    color: rgb(146, 144, 144);
+}
+
+label{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.payInput{
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+}
+
+.payInput::placeholder{
+    color: lightgray;
+}
+
+.cardIcons{
+    display: flex;
+}
+
+.cardIcon{
+    margin-right: 10px;
+}
+
+.cardInfo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sm{
+    width: 30%;
+}
+
+.payButton{
+    position: absolute;
+    bottom: 40;
+    font-size: 13px;
+    background-color: #369e62; /* Navy blue background */
+    color: lightgray; /* White text for contrast */
+    border: none; /* Remove any default borders */
+    padding: 10px 37.7%; /* Adjust padding as needed */
+    border-radius: 50px; /* Curved edges */
+    font-weight: bold; /* Optional: Make text bold */
+    cursor: pointer; /* Indicate interactivity */
+    transition: all 0.3s ease-in-out;
+    -webkit-box-shadow: 0px 0px 32px 10px rgba(0,0,0,0.66);
+    -moz-box-shadow: 0px 0px 32px 10px rgba(0,0,0,0.66);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.66);
+}
+
+.close{
+    position: absolute;
+    top: 23px;
+    right: 28px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.productImg{
+    position: relative;
+    margin-top: 120px;
+    width: 27%;
+    left: 5%;
+    top: 3.85%;
+}
+
+.productDetails{
+    position: absolute;
+    top: 7% ;
+    right: 0;
+    width: 60%;
+    padding: 50px;
+}
+
+.productTitle {
+  font-size: 55px;
+  font-weight: 700;
+}
+
+.productDescription{
+  font-style: 24px;
+  color: gray;
+  text-align: justify;
+  font-size: 15px;
+}
+
+.colors{
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.colour {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ddd; /* Optional border for visual separation */
+  border-radius: 10px;
+  background-color: rgb(218, 216, 216); /* Background color within the border */
+  padding: 25px;
+  margin: 20px;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+
+.colour:hover{
+    border: 2px inset lightgray;
+    transition: all 0.1s ease-in-out;
+}
+  
+.colourImage {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+}
+  
+.colourText {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 5px; /* Adjust spacing between image and text */
+  color: #4E525E;
+}
+
+.productButton {
+    position: relative;
+    right: 0%;
+    font-size: 12.5px;
+    background-color: #0277ED; /* Navy blue background */
+    color: whitesmoke; /* White text for contrast */
+    border: none; /* Remove any default borders */
+    padding: 10px 25px; /* Adjust padding as needed */
+    border-radius: 50px; /* Curved edges */
+    font-weight: bold; /* Optional: Make text bold */
+    cursor: pointer; /* Indicate interactivity */
+    transition: all 0.3s ease-in-out;
+}
+
+.productButton:hover{
+    background-color: rgb(205, 204, 204);
+    color:#0277ED;
+    transition: all 0.3s ease-in-out;
+}
+
+.hidden {
+    display: none;
+}
+
+footer{
+    display: flex;
+    background-color: rgb(231, 231, 231);
+}
+
+.footerLeft{
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.footerMenuTitle{
+    font-size: 16px;
+}
+
+.footerMenuList{
+    padding: 0;
+    list-style: none;
+}
+
+.footerListItem{
+    margin-bottom: 5px;
+    color: gray;
+    cursor: pointer;
+}
+
+.footerRight{
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footerInput{
+    padding: 5px;
+}
+
+.footerButton{
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
+
+.footerIcons{
+    display: flex;
+}
+
+.footerIcon{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.copyright{
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.footerMail{
+    position: absolute;
+    align-items: center;
+    justify-items: center;
+}
+
+.footerButton{
+    background-color: skyblue; /* Navy blue background */
+    color: whitesmoke; /* White text for contrast */
+    border: none; /* Remove any default borders */
+    padding: 6px 5px ; /* Adjust padding as needed */
+    border-radius: 10px; /* Curved edges */
+    font-weight: bold; /* Optional: Make text bold */
+    cursor: pointer;
+    font-size: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.footerButton:hover{
+    background-color: rgb(59, 200, 255);
+    transition: all 0.3s ease-in-out;
+}
+
+.footerInput{
+    border-radius: 5px;
+    padding: 5px;
+    background-color: whitesmoke;
+    border: none;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+}
+
+@media screen and (max-width:480px) {
+    nav{
+        padding: 20px;
+    }
+    .search{
+        display: none;
+    }
+    .navBottom{
+        flex-wrap: wrap;
+    }
+    .menuItem{
+        margin: 20px;
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .sliderImage{
+        position: relative;
+        top: -30px;
+        left: -15px;
+        width: 80%;
+    }
+
+    .sliderbg{
+        width: 50%;
+        height: 50%;
+    }
+    .sliderTitle{
+        display: none;
+    }
+    .sliderPrice{
+        top: unset;
+        bottom: 36px;
+        right: 0px;
+        background-color: lightgray;
+        padding: 5;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+    .buyButton{
+        bottom: 10px;
+        right: 20px;
+        top: unset;
+    }
+    .feature{
+        position: relative;
+        margin-right: 9.5px;
+        padding: 1.117px;
+    }
+    .featureDescription{
+        width: 105%;
+    }
+    .product{
+        clip-path: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .productImg{
+        width: 80%;
+        margin-top: 0;
+        align-items: center;
+        left: 0;
+        right: 0;
+    }
+    .productDetails{
+        position: relative;
+        width: 95%;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        top: 40;
+    }
+    .productTitle{
+        /* position: relative;
+        top: -30px;  */
+        font-size: 30px;
+        margin: 0;
+    }
+    .colour{
+        margin: 7px;
+    }
+    .productDescription{
+        width: 97.49%;
+        text-align: justify;
+    }
+    footer{
+        margin-top: 50%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footerLeft{
+        padding: 20px;
+        width: 95%;
+    }
+    .footerRight{
+        display: flex;
+        padding: 20px;
+        width: 90%;
+        align-items: center;
+        background-color: rgb(193, 192, 192);
+    }
+    .footerIcons{
+        margin-bottom: 10px;
+    }
+    .payment{
+        width: 80%;
+        padding: 20px;
+        z-index: 11;
+    }
+}
