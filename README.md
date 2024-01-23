@@ -1,8 +1,8 @@
 # Moon-Kart - E-Commerce Web App
 
-Moon-Kart is a dynamic E-Commerce Web App designed to provide users with a seamless shopping experience. It is built using HTML, CSS, and JavaScript to create an interactive and user-friendly interface. Whether you're a shopper or a merchant, Moon-Kart aims to cater to your needs with its intuitive design and robust features.
-
 <img width="1440" alt="MOON-KART" src="https://github.com/mrmayankmathur/Moon-Kart/assets/139607998/23941307-b4c4-436f-aaf5-ceb246951abe">
+
+Moon-Kart is a dynamic E-Commerce Web App designed to provide users with a seamless shopping experience. It is built using HTML, CSS, and JavaScript to create an interactive and user-friendly interface. Whether you're a shopper or a merchant, Moon-Kart aims to cater to your needs with its intuitive design and robust features.
 
 ## Tech Stack
 - **HTML**: Markup language used for structuring the web pages.
@@ -10,15 +10,18 @@ Moon-Kart is a dynamic E-Commerce Web App designed to provide users with a seaml
 - **JavaScript**: A programming language used for implementing interactive features.
 
 ## Features
+
+<img width="680" alt="Product Page" src="https://github.com/mrmayankmathur/Moon-Kart/assets/139607998/6a52d7b4-5baf-4229-8e25-b6962a4d7c27">
+
+
+<img width="283" alt="Responsive Product Page(iPhone 12 Pro)" src="https://github.com/mrmayankmathur/Moon-Kart/assets/139607998/415b80cf-75bf-407b-9c42-5f42d2cbe76f">
+
 - **Responsive Design**: Moon-Kart is designed to work seamlessly on various devices, providing a consistent user experience.
 - **Product Listings**: Browse through a wide range of products with detailed descriptions and images.
 - **Shopping Cart**: Add products to your cart and manage your shopping cart with ease.
 - **User Authentication**: Create an account, log in, and track your order history.
 - **Checkout Process**: A streamlined checkout process for a hassle-free shopping experience.
 
-<img width="1440" alt="Product Page" src="https://github.com/mrmayankmathur/Moon-Kart/assets/139607998/6a52d7b4-5baf-4229-8e25-b6962a4d7c27">
-
-<img width="1440" alt="Support" src="https://github.com/mrmayankmathur/Moon-Kart/assets/139607998/e1fb4387-89ee-4bf1-be67-a5656503bdb0">
 
 ## Installation
 1. Clone the repository:
@@ -32,6 +35,9 @@ Moon-Kart is a dynamic E-Commerce Web App designed to provide users with a seaml
 3. Open the `index.html` file in your preferred web browser.
 
 ## Usage
+
+<img width="1440" alt="Support" src="https://github.com/mrmayankmathur/Moon-Kart/assets/139607998/e1fb4387-89ee-4bf1-be67-a5656503bdb0">
+
 1. Explore the product listings.
 2. Add products to your cart.
 3. Proceed to checkout and complete the order.
