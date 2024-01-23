@@ -2,6 +2,9 @@
 
 Moon-Kart is a dynamic E-Commerce Web App designed to provide users with a seamless shopping experience. It is built using HTML, CSS, and JavaScript to create an interactive and user-friendly interface. Whether you're a shopper or a merchant, Moon-Kart aims to cater to your needs with its intuitive design and robust features.
 
+![Uploading MOON-KART.png…]()
+
+
 ## Tech Stack
 - **HTML**: Markup language used for structuring the web pages.
 - **CSS**: Stylesheets for styling and enhancing the visual appeal of the app.
@@ -13,6 +16,10 @@ Moon-Kart is a dynamic E-Commerce Web App designed to provide users with a seaml
 - **Shopping Cart**: Add products to your cart and manage your shopping cart with ease.
 - **User Authentication**: Create an account, log in, and track your order history.
 - **Checkout Process**: A streamlined checkout process for a hassle-free shopping experience.
+
+<img width="1440" alt="Product Page" src="https://github.com/mrmayankmathur/Moon-Kart/assets/139607998/6a52d7b4-5baf-4229-8e25-b6962a4d7c27">
+
+<img width="1440" alt="Support" src="https://github.com/mrmayankmathur/Moon-Kart/assets/139607998/e1fb4387-89ee-4bf1-be67-a5656503bdb0">
 
 ## Installation
 1. Clone the repository:
@@ -59,5 +66,7 @@ We express our gratitude to the developers of HTML, CSS, and JavaScript for thei
 Moon-Kart is a work in progress, and we appreciate your feedback and contributions. Together, let's build a cutting-edge E-Commerce platform that meets the evolving needs of online shoppers.
 
 For more information, please refer to the documentation provided.
+
+<img width="1440" alt="Screenshot 2024-01-23 at 7 09 51 PM" src="https://github.com/mrmayankmathur/Moon-Kart/assets/139607998/cb94c111-32b2-4927-aae5-d4985a2a41e3">
 
 Thank you for using Moon-Kart!
