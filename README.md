@@ -17,7 +17,7 @@ Moon-Kart is a dynamic E-Commerce Web App designed to provide users with a seaml
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/moon-kart.git
+   git clone https://github.com/mrmayankmathur/Moon-Kart.git
    ```
 2. Navigate to the project directory:
    ```bash
