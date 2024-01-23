@@ -14,7 +14,7 @@ Moon-Kart is a dynamic E-Commerce Web App designed to provide users with a seaml
 <img width="540" alt="Product Page" src="https://github.com/mrmayankmathur/Moon-Kart/assets/139607998/6a52d7b4-5baf-4229-8e25-b6962a4d7c27">
 
 
-<img width="283" alt="Responsive Product Page(iPhone 12 Pro)" src="https://github.com/mrmayankmathur/Moon-Kart/assets/139607998/415b80cf-75bf-407b-9c42-5f42d2cbe76f">
+<img width="200" alt="Responsive Product Page(iPhone 12 Pro)" src="https://github.com/mrmayankmathur/Moon-Kart/assets/139607998/415b80cf-75bf-407b-9c42-5f42d2cbe76f">
 
 - **Responsive Design**: Moon-Kart is designed to work seamlessly on various devices, providing a consistent user experience.
 - **Product Listings**: Browse through a wide range of products with detailed descriptions and images.
